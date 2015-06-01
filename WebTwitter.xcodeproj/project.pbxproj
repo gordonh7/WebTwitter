@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390AC7891B1BF652005161A4 /* TwitterTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390AC7881B1BF652005161A4 /* TwitterTimelineViewController.swift */; };
 		3962ED401B1A904A00DD001D /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3962ED3C1B1A904A00DD001D /* Fabric.framework */; };
 		3962ED411B1A904A00DD001D /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3962ED3D1B1A904A00DD001D /* TwitterKit.framework */; };
 		3962ED421B1A904A00DD001D /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3962ED3E1B1A904A00DD001D /* TwitterKitResources.bundle */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		390AC7881B1BF652005161A4 /* TwitterTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterTimelineViewController.swift; sourceTree = "<group>"; };
 		3962ED3C1B1A904A00DD001D /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		3962ED3D1B1A904A00DD001D /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
 		3962ED3E1B1A904A00DD001D /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				39BEA7E41B176A2D00B0D949 /* FirstViewController.swift */,
 				39BEA7E61B176A2D00B0D949 /* SecondViewController.swift */,
 				39BEA7E81B176A2D00B0D949 /* Main.storyboard */,
+				390AC7881B1BF652005161A4 /* TwitterTimelineViewController.swift */,
 				39BEA7EB1B176A2D00B0D949 /* Images.xcassets */,
 				39BEA7ED1B176A2D00B0D949 /* LaunchScreen.xib */,
 				39BEA7E01B176A2D00B0D949 /* Supporting Files */,
@@ -251,6 +254,7 @@
 				39BEA7E71B176A2D00B0D949 /* SecondViewController.swift in Sources */,
 				39BEA7E31B176A2D00B0D949 /* AppDelegate.swift in Sources */,
 				39BEA7E51B176A2D00B0D949 /* FirstViewController.swift in Sources */,
+				390AC7891B1BF652005161A4 /* TwitterTimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
