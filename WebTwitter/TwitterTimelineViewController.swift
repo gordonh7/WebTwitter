@@ -18,7 +18,7 @@ class TwitterTimelineViewController: TWTRTimelineViewController {
         Twitter.sharedInstance().logInGuestWithCompletion { session, error in
             if let validSession = session {
                 let client = Twitter.sharedInstance().APIClient
-                self.dataSource = TWTRUserTimelineDataSource(screenName: "fabric", APIClient: client)
+                self.dataSource = TWTRUserTimelineDataSource(screenName: "uwajimaya", APIClient: client)
             } else {
                 println("error: " + error.localizedDescription)
             }

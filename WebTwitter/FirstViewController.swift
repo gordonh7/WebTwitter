@@ -10,9 +10,26 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet weak var firstWebView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        /*
+        let url = NSURL (string: "http://uwajimaya.com");
+        let requestObj = NSURLRequest(URL: url!);
+        firstWebView.loadRequest(requestObj);
+        self.view.addSubview(firstWebView);
+        */
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        // Returns to home page everytime user switches away and back to this tab
+        let url = NSURL (string: "http://uwajimaya.com");
+        let requestObj = NSURLRequest(URL: url!);
+        firstWebView.loadRequest(requestObj);
+        self.view.addSubview(firstWebView);
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,3 +40,6 @@ class FirstViewController: UIViewController {
 
 }
 
+
+
+     
