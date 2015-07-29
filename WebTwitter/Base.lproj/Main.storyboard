@@ -47,7 +47,7 @@
                             <constraint firstItem="u05-i0-hnx" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="vei-SV-WKh"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="First" image="uwaji" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="firstWebView" destination="u05-i0-hnx" id="5P9-gy-Z2j"/>
                     </connections>
@@ -145,7 +145,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
+        <image name="uwaji" width="25" height="24"/>
     </resources>
 </document>
